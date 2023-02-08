@@ -1,0 +1,22 @@
+{
+  "name": "hardhat-javascript-starter",
+  "scripts": {
+    "build": "npx thirdweb@latest detect",
+    "deploy": "npx thirdweb@latest deploy",
+    "release": "npx thirdweb@latest release"
+  },
+  "devDependencies": {
+    "hardhat": "^2.10.1"
+  },
+  "dependencies": {
+    "@ethersproject/pbkdf2": "^5.7.0",
+    "@thirdweb-dev/contracts": "^3",
+    "@thirdweb-dev/react": "^3.6.9",
+    "@thirdweb-dev/sdk": "^3.6.9",
+    "@uniswap/sdk": "^3.0.2",
+    "dotenv": "^16.0.3",
+    "gh-pages": "^4.0.0",
+    "retry": "^0.13.1",
+    "thirdweb": "^0.9.9"
+  }
+}
